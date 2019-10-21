@@ -10,6 +10,8 @@ public class LineCounterRunner {
 	public static void main(String args[]) {
 		Scanner file = new Scanner("LineCounter.txt");
 		
+		
+		LineCounter.LineCounter(file.nextLine());
 		System.out.println();
 	}
 }
