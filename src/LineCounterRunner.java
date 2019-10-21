@@ -5,9 +5,11 @@
 import java.util.Scanner;
 import static java.lang.System.*;  
 
-public class LineCounterRunner
-{
-   public static void main( String args[] )
-   {	
+public class LineCounterRunner {
+   
+	public static void main(String args[]) {
+		Scanner file = new Scanner("LineCounter.txt");
+		
+		System.out.println();
 	}
 }
