@@ -13,22 +13,33 @@ public class LineCounter {
 	}
 
 	public LineCounter(String s) {
-		
+		setLine(s);
 	}
 
 	public void setLine(String s) {
+		this.line = s;
 	}
 
 	public int getCount() {
-		int count = 0;	
+		int count = 0;
+		
+		Scanner sLine = new Scanner(line);
+		
+		while(sLine.hasNextInt())
+		{
+			sLine.nextInt();
+			count++;
+		}
+		
+		sLine.close();
 		return count;
 	}
 
 	public String getLine() {
-		return "";
+		return line;
 	}
 
 	public String toString() {
-		return getLine();
+		return "count = " + getCount();
 	}
 }
