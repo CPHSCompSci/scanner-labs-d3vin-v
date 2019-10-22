@@ -23,14 +23,15 @@ public class LineCounter {
 	public int getCount() {
 		int count = 0;
 		
-		Scanner karrl = new Scanner(line);
+		Scanner sLine = new Scanner(line);
 		
-		while(karrl.hasNextInt())
+		while(sLine.hasNextInt())
 		{
-			karrl.nextInt();
+			sLine.nextInt();
 			count++;
 		}
 		
+		sLine.close();
 		return count;
 	}
 
