@@ -20,7 +20,7 @@ public class LineCounter {
 	}
 
 	public int getCount() {
-		int count=0;	
+		int count = 0;	
 		return count;
 	}
 
