@@ -10,26 +10,31 @@ public class DogFood
 {
    private double amount;
 
-   public DogFood()
-   {		
+   public DogFood() {
+	   
    }
 
-   public DogFood(String line)
-   {
+   public DogFood(String line) {
 		Scanner chopper = new Scanner(line);
 		double cups = 0;
+		int s;
+		int e;
+		String num;
+		for(int i = 0; i < line.length(); i++) {
+			if(line.charAt(i+1) == ' ') {
+				num = line.substring()
+			}
+		}
 
 		//calc code goes here
 
    }
 
-   public double getAmount()
-   {
-   	return 0;
+   public double getAmount() {
+	   return 0;
    }
 
-	public String toString()
-	{
-		return "";
-	}
+   public String toString() {
+	   return "";
+   }
 }
