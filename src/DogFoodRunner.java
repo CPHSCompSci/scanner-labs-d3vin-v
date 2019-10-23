@@ -16,6 +16,10 @@ public class DogFoodRunner
 		while(sFile.hasNextLine()) {
 			String line = sFile.nextLine();
 			
+			
+			System.out.println(line);
+			
+			
 		}
 	}
 }
